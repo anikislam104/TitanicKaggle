@@ -21,3 +21,5 @@ print(train_df.head())
 pd.plotting.register_matplotlib_converters()
 import matplotlib.pyplot as plt
 import seaborn as sns
+plt.figure(figsize=(16,6))
+sns.lineplot(data=train_df)
